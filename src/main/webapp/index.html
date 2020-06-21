@@ -8,6 +8,16 @@
 <hr>
 <ul>
     <li><a href="users">Users</a></li>
+    <li><a href="meals">Meals</a></li>
+
 </ul>
+<form method="post" action="users" >
+    <select name ="userId" onchange="this.form.submit()">
+<!--        <option selected value="default"> Please select an option </option>-->
+        <option name="id" value="1">User id1</option>
+        <option name="id" value="2">User id2</option>
+    </select>
+</form>
 </body>
 </html>
+
